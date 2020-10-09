@@ -12,11 +12,10 @@ JSP의 Transactions 구현  - Java.sql 표준방식 (Spring MVC - version)
 ##### (소프트웨어 프로젝트 관리 및 이해 도구)
 ##### 2. javax.servlet-api (4.0.1) - https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
 ##### 3. Spring Framework 4.2.4.RELEASE
-##### 4. spring-JDBC
 
 ### 1. 소개(Description)
-##### 1. Spring-Framework의 Spring JDBC를 활용하여 오라클 기반에서 어노테이션 없는 트랜젝션 구현하였다.
-##### (Using Spring JDBC of Spring-Framework, transaction without annotation was implemented in Oracle base.)
+##### 1. Spring-Framework의 Spring MVC 기본 셋팅 그대로 둔 상태로 순정 Java SQL 패키지를 활용하여 트랜젝션을 구현하였다.
+##### (With the Spring MVC default setting of Spring-Framework as it is, a transaction was implemented using a genuine Java SQL package.)
 
 ### 2. 시연(Demonstration)
 
