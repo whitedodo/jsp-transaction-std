@@ -16,6 +16,8 @@ JSP의 Transactions 구현  - Java.sql 표준방식 (Spring MVC - version)
 ### 1. 소개(Description)
 ##### 1. Spring-Framework의 Spring MVC 기본 셋팅 그대로 둔 상태로 순정 Java SQL 패키지를 활용하여 트랜젝션을 구현하였다.
 ##### (With the Spring MVC default setting of Spring-Framework as it is, a transaction was implemented using a genuine Java SQL package.)
+##### 2. MyDataSourceFactory.java에 MySQL, Oracle, Apache DBCP2 적용 방법이 있다.
+##### (MySQL, Oracle, Apache DBCP2 application method in MyDataSourceFactory.java.)
 
 ### 2. 시연(Demonstration)
 ##### 1. Java - JDBC Transactions - 표준 버전, https://youtu.be/7lY6p4ccYjo, Accessed by 2020-10-10, Last Modified 
